@@ -1,0 +1,15 @@
+{
+  "name": "Spotispy",
+  "version": "0.1",
+  "description": "Capture Spotify music info and upload to server",
+  "manifest_version": 2,
+  "permissions": [
+    "https://api.parse.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://play.spotify.com/*"],
+      "js": ["contentscript.js"]
+    }
+  ]
+}
