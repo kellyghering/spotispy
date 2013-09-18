@@ -1,1 +1,4 @@
-Put something here.
+This code is in progress, awaiting some functionality from Spotify to be fully complete. 
+
+It currently is a Chrome extension that pulls spotify song data (now playing) from spotify web player into a database, 
+and then reads it onto an LCD screen.
